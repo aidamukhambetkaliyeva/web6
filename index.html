@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <section>
+    <h1 id="title">Welcome to My Portfolio</h1>
+    <h2 id="headline">Aida</h2>
+    <p class="intro">Hi! I am a student and I am learning web development.</p>
+    <button id="changeText">Change Headline</button>
+    <button id="light">Light</button>
+    <button id="dark">Dark</button>
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a student at Astana IT University.</p>
+    <p id="status">Currently learning jQuery!</p>
+    <ul id="facts">
+      <li>I like music</li>
+      <li>I like movie</li>
+      <li>I want to be a developer</li>
+    </ul>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <img class="pic" src="Koshka1.jpg" alt="photo 1">
+    <img class="pic" src="Koshka2.jpg" alt="photo 2">
+    <br><br>
+    <button id="fadeOut">Fade Out</button>
+    <button id="fadeIn">Fade In</button>
+    <button id="fadeToggle">Fade Toggle</button>
+  </section>
+
+  <section>
+    <h2>My Favorites</h2>
+    <h3 class="head">My Favorite Music</h3>
+    <div class="panel">music</div>
+    <h3 class="head">My Favorite Movie</h3>
+    <div class="panel">movie</div>
+    <h3 class="head">My Favorite Subject</h3>
+    <div class="panel">math</div>
+    <br>
+    <button id="slideDownAll">Slide Down All</button>
+    <button id="slideUpAll">Slide Up All</button>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul id="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+    </ul>
+    <input type="text" id="skillInput" placeholder="New skill">
+    <button id="addSkill">Add Skill</button>
+    <button id="prependSkill">Prepend Skill</button>
+    <button id="removeSkill">Remove Skill</button>
+  </section>
+
+  <section>
+    <h2>Social Link</h2>
+    <a id="link" href="https://github.com" target="_blank">My GitHub</a>
+    <br><br>
+    <button id="changeLink">Change Link</button>
+  </section>
+
+  <section>
+    <h2>Form</h2>
+    <form>
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="email" placeholder="Email">
+    </form>
+    <p>Name: <span id="outName"></span></p>
+    <p>Email: <span id="outEmail"></span></p>
+  </section>
+
+  <section>
+    <h2>Skill Bars</h2>
+    <div class="bar-box"><div class="bar" data-width="90%">HTML</div></div>
+    <div class="bar-box"><div class="bar" data-width="70%">CSS</div></div>
+    <div class="bar-box"><div class="bar" data-width="50%">JavaScript</div></div>
+    <button id="animate">Animate My Skills</button>
+  </section>
+
+</body>
+</html>
